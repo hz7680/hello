@@ -1,0 +1,14 @@
+*{ margin: 0; padding: 0}
+ul {list-style:none;}
+ul li{list-style:none;}
+.clear {display:block;width:0px;height:0px;clear:both;margin:0px;padding:0px;font:0/0 sans-serif;}
+
+.loading{ position: absolute; z-index: 100; width: 100%; height: 100%; background: #000000; color: #ffffff}
+.loading p{ position: relative; margin: auto; margin-top: -50%; height: 60%; text-align: center; font-size: 300px; line-height: 100%}
+
+#nav{ position: fixed; width: 15%; height: 100%; background: #000000}
+#nav .logo_box{ position: relative; width: 100%; height: 0; padding-bottom: 80%;  overflow: hidden; background: #dedede}
+#nav .navlist{ position: relative; top: 3%; width: 80%; height: 60%}
+#nav .navlist li{ width: 80%; height: 8%; margin-top: 5%; border: 1px solid #ffffff}
+#nav .navlist li a{ text-align: center; width: 100%; height: 100%; display: block; text-decoration: none; color: #ffffff}
+
