@@ -66,5 +66,6 @@ $(function(){
     }
     $(window).resize(function(){
         init();
+        $("#nav .navlist li").fadeIn(0);
     })
 })
